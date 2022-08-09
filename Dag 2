@@ -1,0 +1,10 @@
+Rekening = input("Hoeveel kost het in totaal? ")
+Aantal_mensen = input("Hoeveel mensen moeten betalen? ")
+Procent_fooi = input("Hoeveel procent fooi wil je geven? 10%, 12% of 15%? ")
+
+Fooi_Procent = int(Procent_fooi) + 100
+Fooi = Fooi_Procent / 100
+Rekening_Fooi = float(Rekening) * float(Fooi)
+Totaal = float(Rekening_Fooi) / int(Aantal_mensen)
+Totaal_per_persoon = str(round(Totaal, 2))
+print("Iedereen moet " + str(Totaal_per_persoon) + " betalen.")
