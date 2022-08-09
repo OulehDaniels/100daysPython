@@ -1,0 +1,6 @@
+print("hallo!")
+naam = input("Wat is jou naam?\n")
+print("Hoi " + naam + ", ik ga jou vertellen welke dag van welke maand het is!")
+maand = input("Als eerste, welke maand is het?\n")
+dag_van_maand = input("En de hoeveelste dag van de maand is het?\n")
+print("Dan is het " + dag_van_maand + " " + maand + "!")
