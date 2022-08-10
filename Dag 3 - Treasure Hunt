@@ -1,0 +1,50 @@
+print('''
+*******************************************************************************
+          |                   |                  |                     |
+ _________|________________.=""_;=.______________|_____________________|_______
+|                   |  ,-"_,=""     `"=.|                  |
+|___________________|__"=._o`"-._        `"=.______________|___________________
+          |                `"=._o`"=._      _`"=._                     |
+ _________|_____________________:=._o "=._."_.-="'"=.__________________|_______
+|                   |    __.--" , ; `"=._o." ,-"""-._ ".   |
+|___________________|_._"  ,. .` ` `` ,  `"-._"-._   ". '__|___________________
+          |           |o`"=._` , "` `; .". ,  "-._"-._; ;              |
+ _________|___________| ;`-.o`"=._; ." ` '`."\` . "-._ /_______________|_______
+|                   | |o;    `"-.o`"=._``  '` " ,__.--o;   |
+|___________________|_| ;     (#) `-.o `"=.`_.--"_o.-; ;___|___________________
+____/______/______/___|o;._    "      `".o|o_.--"    ;o;____/______/______/____
+/______/______/______/_"=._o--._        ; | ;        ; ;/______/______/______/_
+____/______/______/______/__"=._o--._   ;o|o;     _._;o;____/______/______/____
+/______/______/______/______/____"=._o._; | ;_.--"o.--"_/______/______/______/_
+____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
+/______/______/______/______/______/______/______/______/______/______/_____ /
+*******************************************************************************
+''')
+print("alle antwoorden zonder hoofdletters!!\n \n \n")
+treasure_hunt = input("welkom bij minecraft!\n naa welke server wil je als eerste?\n luckycraft\n splashcraft\n oulehcraft\n")
+if treasure_hunt == "luckycraft":
+  LuckyCraft = input("Welkom bij LuckyCraft!\n Je hebt hier 2 gamemodes, skymine of survival, welke wil jij spelen?\n skymine\n survival\n")
+  if LuckyCraft == "skymine":
+    SkyMine = input("Welkom bij skymine! Wil je beginnen?\n ja\n nee\n")
+    if SkyMine == "ja":
+      print("Jammer, Skymine zit al helemaal vol en elke boss of generator is al bezet, ik zou naar de survival gaan!")
+    elif SkyMine == "nee":
+      print("Goede keuze! Skymine zat namelijk al helemaal vol en elke boss of generator was al bezet! ik zou naar de survival gaan!")
+  if LuckyCraft == "survival":
+    survival = input("Veel succes! pas alleen wel op want er is iemand die 3 weken playtime heeft die nieuwe mensen graag killed!\n Maar voor de rest, wat zou je willen doen?\n Alles in de luckycraft webshop kopen of normaal spelen en als je iets verkeerd zegt dan wordt je gebanned.\n kopen\n ban\n")
+    if survival == "kopen":
+      Kopen = input("Nu moet je €1000 uitgeven! weet je het nog steeds zeker dat je het wilt doen?\n ja\n nee\n")
+      if Kopen == "ja":
+        print("gefeliciteerd, je bent de hoogste rank en hebt alles uit de crate, je krijgt nu ook een eigen tag en een unieke chat kleur en door jou heeft erik weer een nieuwe profiel foto gekocht!")
+      elif Kopen == "nee":
+        gevecht = input("Oh nee, er komt nu een boze erik achter je aan, wat ga je doen?\n Pak een glock en schiet jezelf in je hoofd of gooi Erik weg en leef zonder LuckyCraft.\n glock\n gooi\n")
+        if gevecht == "glock":
+          print("Je bent nu dood, gg L bozo")
+        elif gevecht == "gooi":
+          print("Goed gedaan! Je hebt erik weggegooid en hij ligt nu dood op de grond. Ik zou nu naar RamboMC gaan")
+    if survival == "ban":
+      print("Wow! Luukosaurus was er in no-time en je bent gebanned omdat je retared bent, L bozo!")
+if treasure_hunt == "splashcraft":
+  print("Sorry deze server is al een halfjaar dicht, kom terug op 1 juni 2037.")
+if treasure_hunt == "oulehcraft":
+  print("Welkom! dit is een van de beste servers aller tijden, de owner is de mooiste jongen van de wereld en ik heb ook gehoord dat zijn spieren heel groot zijn! veel plezier een pas op voor PP power! P.S. PP power is de hoe die teveel damage doet lol")
