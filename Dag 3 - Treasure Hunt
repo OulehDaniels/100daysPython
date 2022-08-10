@@ -21,7 +21,7 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 *******************************************************************************
 ''')
 print("alle antwoorden zonder hoofdletters!!\n \n \n")
-treasure_hunt = input("welkom bij minecraft!\n naa welke server wil je als eerste?\n luckycraft\n splashcraft\n oulehcraft\n")
+treasure_hunt = input("welkom bij minecraft!\n naar welke server wil je als eerste?\n luckycraft\n splashcraft\n oulehcraft\n")
 if treasure_hunt == "luckycraft":
   LuckyCraft = input("Welkom bij LuckyCraft!\n Je hebt hier 2 gamemodes, skymine of survival, welke wil jij spelen?\n skymine\n survival\n")
   if LuckyCraft == "skymine":
